@@ -1,12 +1,14 @@
 import React from 'react';
-import { BrowserRouter  ,Routes, Route } from 'react-router-dom';
+import { BrowserRouter  ,Routes, Route} from 'react-router-dom';
 import { SidebarComponent } from '@syncfusion/ej2-react-navigations';
 import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
 import { ListViewComponent } from '@syncfusion/ej2-react-lists';
 import './App.css';
-
+import Object from './Pages/Object';
+import Template from './Pages/Template';
 
 function App() {
+
   const listData = [
      
   { id: "1", text: "Home" } ,
@@ -17,7 +19,7 @@ function App() {
 
   const listFields = { id: 'id', text: 'text' };
 
-  let sidebarObj = null; 
+  let sidebarObj = SidebarComponent; 
 
   const buttonClick = () => {
     sidebarObj.toggle();
@@ -64,8 +66,8 @@ function App() {
         <Routes>
 
           <Route path="/Home" element={<></>} />
-          <Route path="/create-object" element={<></>} />
-          <Route path="/email-template" element={<></>} />
+          <Route path="/create-object" element={<Object/>} />
+          <Route path="/email-template" element={<Template/>} />
         </Routes>
       </div>
     </BrowserRouter>
