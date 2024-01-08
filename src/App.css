@@ -1,0 +1,43 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-lists/styles/material.css";
+.header {
+  text-align: center;
+  color: white;
+  background-color: midnightblue;
+  line-height: 58px;
+  font-size: 25px;
+}
+
+.main-content {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.sidebar-content {
+  font-size: 25px;
+  text-align: left; 
+  /* padding-top: 50px; */
+}
+
+.e-sidebar{
+  background-color: #f8f8f8;
+}
+
+.e-sidebar.e-left,  .e-sidebar.e-right {
+    top: 60px;
+}
+.customBtn {
+  color: white !important;
+  background-color: midnightblue !important;
+  border-color: midnightblue !important;
+  
+}
+
+.e-btn .e-btn-icon, .e-css.e-btn .e-btn-icon{
+  font-size: 20px !important;
+ 
+} 
