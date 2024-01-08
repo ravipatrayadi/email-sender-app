@@ -47,10 +47,10 @@ function App() {
         <div className="header" style={{ width: '100%' }}>
           <span style={{ float: 'left' }}>
             <ButtonComponent className="customBtn" iconCss="e-icons e-menu" onClick={buttonClick}>
-              Language
+              SETTINGS
             </ButtonComponent>
           </span>
-          <span>Header</span>
+          <span>Email Sender App </span>
         </div>
         <SidebarComponent
           style={{ margin: '10px' }}
