@@ -2,20 +2,18 @@
 .Temp{
   margin-left: 40px;
   margin-right: 40px;
+  padding-left: 40px;
 }
 
 .name{
-    text-align: left;
     padding-top: 30px;
   }
 
 .to{
-    text-align: left;
     padding-top: 20px;  
 }
 
 .cc{
-    text-align: left;
     padding-top: 10px;
 }
 

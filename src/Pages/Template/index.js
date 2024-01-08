@@ -72,19 +72,19 @@ const quickToolbarSettings = {
   return (
     <div className="Temp">
       <div className='name'>
-        <TextBoxComponent width='300px' placeholder="Enter  name" floatLabelType='Always' />
+        <TextBoxComponent width='300px' placeholder="Enter  name" floatLabelType='Auto' />
       </div>
 
       <div className='to'>
-        <TextBoxComponent width='300px' placeholder="To" floatLabelType='Always' />
+        <TextBoxComponent width='300px' placeholder="To" floatLabelType='Auto' />
       </div>
 
       <div className='cc'>
-        <TextBoxComponent width='200px' placeholder="CC" floatLabelType='Always'  readOnly ={true}  />
+        <TextBoxComponent width='200px' placeholder="CC" floatLabelType='Auto'  readOnly ={true}  />
       </div>
 
       <div className='cc'>
-        <TextBoxComponent width='200px' placeholder="BCC" floatLabelType='Always' />
+        <TextBoxComponent width='200px' placeholder="BCC" floatLabelType='Auto' />
       </div>
       <div className='heading'>
         <h2 style={{ fontWeight: 'normal' }}>Select Object</h2>
@@ -112,6 +112,8 @@ const quickToolbarSettings = {
       </div>
 
     </div>
+  
+
   )
 }
 
